@@ -13,7 +13,7 @@ body{
 .bold{
     font-weight: bold;
 }
-/* header */
+
 header{
     background-color:#131921;
     padding: 15px;
@@ -26,9 +26,8 @@ header{
     justify-content:space-between;
 }
 
-/* header links */
-
-header ul{
+/* links */
+ul{
     list-style:none;
     display:flex;
     align-items: center;
@@ -42,11 +41,16 @@ a{
     text-decoration: none;
 }
 
+#breadcrumbs{
+    padding:10px;
+    margin-left:65px;
+}
+
 
 /* img */
-#img{
+#img-tenis1{
     background-image: url(../img/T1.jpg);
-    height:600px;
+    height:500px;
     width: 50%;
 
     background-position:center;
@@ -55,12 +59,12 @@ a{
 }
 
 
-.produto{
-    margin: 70px;
+#produto{
+    margin: 0 70px 70px 70px;
     display: flex;
 }
 
-.produto-info{
+#produto-info{
     font-size:20px;
     width:50%;
 }
@@ -68,12 +72,7 @@ a{
     margin-bottom: 25px;
 }
 
-/* 1111 
-#seletor{
-    margin-bottom: 5px;
-}
- */
- 
+
 /* seletor de tamanhos */
 input[type="radio"]{
     display:none;
@@ -91,7 +90,7 @@ input[type="radio"]:checked + label{
 }
 
 /* comprar */
-.produto-info a{
+#btn-principal{
     background-color: #131921;
     padding:15px;
     border-radius:6px;
@@ -102,6 +101,49 @@ input[type="radio"]:checked + label{
     text-align: center;
     text-transform:uppercase;
     margin-bottom: 15px;
+}
+
+#btn-principal:hover {
+    background-color: #0a0d11;
+}
+
+/* Mais produtos */
+#mais-produtos{
+    margin:0 70px 35px 70px;
+}
+
+#mais-produtos-rolagem {
+    display:flex;
+}
+
+.mais-produtos-divs{
+margin-left:10px;
+}
+.mais-produtos-imgs{
+    width:100%;
+    height:150px;
+
+    background-position:center;
+    background-size:cover;
+}
+#img-tenis2{background-image: url(../img/T2.jpg);}
+#img-tenis3{background-image: url(../img/T3.jpg);}
+#img-tenis4{background-image: url(../img/T4.jpg);}
+#img-tenis5{background-image: url(../img/T5.jpg);}
+#img-tenis6{background-image: url(../img/T6.jpg);}
+
+.btn {
+    background-color: #131921;
+    display:block;
+    padding:15px;
+    width:100%;
+    border-radius:6px;
+    text-align:center;
+
+    text-transform:uppercase;
+}
+.btn:hover {
+    background-color: #0a0d11;
 }
 
 /* footer */
