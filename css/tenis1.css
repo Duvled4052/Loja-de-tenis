@@ -1,0 +1,154 @@
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: "Helvetica", sans-serif;
+}
+
+body{
+    background-color: #232F3E;
+    color: #c0c0c0;
+}
+.bold{
+    font-weight: bold;
+}
+
+header{
+    background-color:#131921;
+    padding: 15px;
+
+    position:sticky;
+    top:0;
+
+
+    display: flex;
+    justify-content:space-between;
+}
+
+/* links */
+ul{
+    list-style:none;
+    display:flex;
+    align-items: center;
+}
+ul li{
+    margin-right:10px;
+}
+
+a{
+    color:#c0c0c0;
+    text-decoration: none;
+}
+
+#breadcrumbs{
+    padding:10px;
+    margin-left:65px;
+}
+
+
+/* img */
+#img-tenis1{
+    background-image: url(../img/T1.jpg);
+    height:500px;
+    width: 50%;
+
+    background-position:center;
+    background-size:cover;
+    margin-right:40px;
+}
+
+
+#produto{
+    margin: 0 70px 70px 70px;
+    display: flex;
+}
+
+#produto-info{
+    font-size:20px;
+    width:50%;
+}
+#preco {
+    margin-bottom: 25px;
+}
+
+
+/* seletor de tamanhos */
+input[type="radio"]{
+    display:none;
+}
+label{
+    padding: 5px 30px;
+    border:2px solid;
+    border-radius:30px;
+    cursor:pointer;
+    display: inline-block;
+}
+input[type="radio"]:checked + label{
+    border:4px solid;
+    background-color: #131921;
+}
+
+/* comprar */
+#btn-principal{
+    background-color: #131921;
+    padding:15px;
+    border-radius:6px;
+
+    display:block;
+    width:100%;
+
+    text-align: center;
+    text-transform:uppercase;
+    margin-bottom: 15px;
+}
+
+#btn-principal:hover {
+    background-color: #0a0d11;
+}
+
+/* Mais produtos */
+#mais-produtos{
+    margin:0 70px 35px 70px;
+}
+
+#mais-produtos-rolagem {
+    display:flex;
+}
+
+.mais-produtos-divs{
+margin-left:10px;
+}
+.mais-produtos-imgs{
+    width:100%;
+    height:150px;
+
+    background-position:center;
+    background-size:cover;
+}
+#img-tenis2{background-image: url(../img/T2.jpg);}
+#img-tenis3{background-image: url(../img/T3.jpg);}
+#img-tenis4{background-image: url(../img/T4.jpg);}
+#img-tenis5{background-image: url(../img/T5.jpg);}
+#img-tenis6{background-image: url(../img/T6.jpg);}
+
+.btn {
+    background-color: #131921;
+    display:block;
+    padding:15px;
+    width:100%;
+    border-radius:6px;
+    text-align:center;
+
+    text-transform:uppercase;
+}
+.btn:hover {
+    background-color: #0a0d11;
+}
+
+/* footer */
+footer{
+    background-color:#131921;
+    padding:80px;
+    text-align:center;
+}
