@@ -106,6 +106,7 @@ a{
 }
 #mais-produtos-flex{
     display:flex;
+    overflow-x:auto;
 }
 
 #img-tenis1{background-image:url(../img/T1.jpg)}
@@ -139,4 +140,20 @@ footer{
     background-color:#131921;
     padding:80px;
     text-align:center;
+}
+
+/* Responsivo */
+
+@media screen and (max-width:768px){
+    #produto{
+        display:block;
+    }
+    #produto-img{
+        width:100%;
+        margin-bottom:30px;
+        height:300px;
+    }
+    #produto-info{
+        width:100%;
+    }
 }

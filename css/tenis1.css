@@ -114,6 +114,7 @@ input[type="radio"]:checked + label{
 
 #mais-produtos-rolagem {
     display:flex;
+    overflow-x:auto;
 }
 
 .mais-produtos-divs{
@@ -151,4 +152,20 @@ footer{
     background-color:#131921;
     padding:80px;
     text-align:center;
+}
+
+/* Responsivo */
+
+@media screen and (max-width:768px){
+    #produto{
+        display:block;
+    }
+    #img-tenis1{
+        width:100%;
+        margin-bottom:30px;
+        height:300px;
+    }
+    #produto-info{
+        width:100%;
+    }
 }

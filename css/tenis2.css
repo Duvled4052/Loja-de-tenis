@@ -117,7 +117,7 @@ input:checked + label{
 }
 #mais-produtos-rolagem{
     display: flex;
-    /* overflow-x:auto; */
+    overflow-x:auto;
 }
 #tenis2, #tenis3, #tenis4, #tenis5, #tenis6{
     margin-left:10px;
@@ -156,4 +156,19 @@ footer{
     background-color:#131921;
     text-align:center;
     padding:80px;
+}
+
+/* Responsivo */
+@media screen and (max-width:768px){
+    #produto{
+        display:block;
+    }
+    #img-tenis2{
+        width:100%;
+        margin-bottom:30px;
+        height:300px;
+    }
+    #produto-info{
+        width:100%;
+    }
 }
