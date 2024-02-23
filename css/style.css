@@ -54,7 +54,7 @@ padding: 50px;
 
 .card {
     /* width:31%; */
-    min-width:300px;
+    min-width:370px;
     display: inline-block;
     margin: 1% 1%;
     padding: 15px;
@@ -119,4 +119,23 @@ footer {
     background-color:#131921;
     text-align: center;
     padding: 80px;
+}
+
+/* Responsive */
+@media screen and (max-width:900px){
+    .container {
+        padding: 50px 0 50px 0;
+        }
+        .card {
+            max-width:300px;
+            margin: 0 auto;
+            display:block;
+        }
+}
+
+@media screen and (max-width:1310px) {
+    .products-container {
+        max-width:777px;
+        margin: 0 auto;
+    }
 }

@@ -157,3 +157,15 @@ footer{
         width:100%;
     }
 }
+
+@media screen and (max-width:513px){
+    #produto{
+        margin:0 15px 70px 15px;
+    }
+    #mais-produtos{
+        margin:0 15px 35px 15px;
+    }
+    #breadcrumbs{
+        margin-left:10px;
+    }
+}
